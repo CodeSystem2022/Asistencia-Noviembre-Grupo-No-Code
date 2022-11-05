@@ -88,3 +88,25 @@ class FiguraGeometrica:
     def __str__(self):
         return f'FiguraGeometrica [ ancho: {self._ancho}, alto: {self._alto}]'
 
+
+# asistencia  DARIO CARRIZO
+class Persona: # Creamos una clase
+#def _init_(self, nombre, apellido, edad): # se lo llama metodo
+        self.nombre = nombre
+        self.apellido = apellido
+        self.edad = edad
+        print(type(Persona))
+
+persona1 = persona('dario' , 'carrizo' , "51" ) # necesitamos enviar argumentos
+print(persona1.nombre)
+print(persona1.apellido)
+print(persona1.edad)
+
+persona2 = Persona( 'mery' , 'maya' , "50" )
+print(f'El objeto2 de la clase persona : { persona2.nombre}{persona2.apellid}{persona2.edad}')
+
+persona1 = Persona( 'dario' , 'carrizo' , "51" )
+print(f'El objeto1 de la clase persona : { persona1.nombre}{persona1.apellid}{persona1.edad}')
+
+#los atribugtos son las caracteristicas
+#los metodos son el comportamiento que a tenen el objeto
