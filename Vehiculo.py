@@ -110,3 +110,24 @@ print(f'El objeto1 de la clase persona : { persona1.nombre}{persona1.apellid}{pe
 
 #los atribugtos son las caracteristicas
 #los metodos son el comportamiento que a tenen el objeto
+
+#Alumno: Franco Ariel Lara/Asistencia Noviembre
+# Tarea crear tres objetos más, utilizando los métodos getter and setter
+# para modificar, y mostrar los cambios con el método mostrar detalles
+persona2=Persona2('Franco', 'Ariel', 20)
+persona2.nombre = 'Fran'
+persona2.apellido = 'Lara'
+persona2.edad = 21
+print(persona2.mostrar_detalles())
+
+persona3 = Persona2('John', 'Connor', 16)
+persona3.nombre = 'Johnatan'
+persona3.apellido = 'Potato'
+persona3.edad = 36
+print(persona3.mostrar_detalles())
+
+persona4 =Persona2('Tomas', 'Villalobos', 20)
+persona4.nombre = 'Tom'
+persona4.apellido = "Lobos"
+persona4.edad = 21
+print(persona4.mostrar_detalles())
