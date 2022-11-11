@@ -206,3 +206,25 @@ print(f'El objeto2 de la clase persona : { persona2.nombre}{persona2.apellid}{pe
 persona1 = Persona( 'jeremias' , 'riquero' , "18" )
 print(f'El objeto1 de la clase persona : { persona1.nombre}{persona1.apellid}{persona1.edad}')
 
+
+#ASISTENCIA NOVIEMBRE: Lucas Salinas
+persona2 = Persona("Lucas", "Salinas", 19)
+persona2.nombre = "Daniel"
+persona2.apellido = 'Salinas'
+persona2.edad = 19
+
+print(persona2.mostrar_detalles())
+
+persona3 = Persona("Jere", "Riquero", 18)
+persona3.nombre = "Jeremias"
+persona3.apellido = "Riquero"
+persona3.edad = 18
+
+print(persona3.mostrar_detalles())
+
+persona4 = Persona("Abel", "Pierna", 19)
+persona4.nombre = "Matias"
+persona4.apellido = "Pierna"
+persona4.edad = 19
+
+print(persona4.mostrar_detalles())
