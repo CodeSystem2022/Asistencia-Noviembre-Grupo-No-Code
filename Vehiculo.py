@@ -190,3 +190,19 @@ class FiguraGeo:
 
     def __str__(self):
         return print(f' La Figura Geometrica tiene las siguientes proporciones [ ancho: {self._ancho}, alto: {self._alto}]')
+    
+    #Jeremias el mas pijon del barrio
+    class Persona:
+        self.nombre = nombre
+        self.apellido = apellido
+        self.edad = edad
+        print(type(Persona))
+persona1 = persona('jeremias' , 'riquero' , "18" )
+print(persona1.nombre)
+print(persona1.apellido)
+print(persona1.edad)
+persona2 = Persona( 'abel' , 'pierna' , "19" )
+print(f'El objeto2 de la clase persona : { persona2.nombre}{persona2.apellid}{persona2.edad}')
+persona1 = Persona( 'jeremias' , 'riquero' , "18" )
+print(f'El objeto1 de la clase persona : { persona1.nombre}{persona1.apellid}{persona1.edad}')
+
